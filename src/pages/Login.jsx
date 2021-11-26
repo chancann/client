@@ -1,10 +1,14 @@
 import React from 'react'
+import NavbarLogin from '../components/NavbarLogin';
+import Footer from '../components/Footer';
 
 function Login() {
   return (
-    <div>
-      <h1 className="text-4xl text-blue-700">Login Page</h1>
-    </div>
+    <>
+      <NavbarLogin />
+      <Footer />
+    </>
+
   )
 }
 

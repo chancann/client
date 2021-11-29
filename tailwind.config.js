@@ -14,9 +14,9 @@ module.exports = {
       'gray-2': '#C9BBCC'
     },
     maxWidth: {
-      'mw-1': '18rem',
+      'mw-1': '18rem ',
       'mw-2': '24rem',
-      'mw-3': '460px',
+      'mw-3': '420px',
     },
     minHeight: {
       '0': '0',
@@ -24,12 +24,12 @@ module.exports = {
       '1/2': '50%',
       '3/4': '75%',
       'full': '100%',
-      'navfoot': '5vh',
-      'main': '85vh',
-      'c-main': '(100vh-140px)'
+      'main': '80vh'
+      // 'navfoot': '5vh',
+      // 'c-main': '(100vh-140px)'
     },
     screens: {
-      'sm-android': '360px',
+      'sm-android': '320px',
       'android': '480px',
       'sm-tablet': '640px',
       'tablet': '860px',

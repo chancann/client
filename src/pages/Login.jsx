@@ -1,7 +1,7 @@
 import React from 'react'
-import NavbarLogin from '../components/NavbarLogin';
-import Footer from '../components/Footer';
-import MainLogin from '../components/MainLogin';
+import NavbarLogin from '../components/Navbar/NavbarLogin';
+import Footer from '../components/Footer/Footer';
+import MainLogin from '../components/Main/MainLogin';
 
 function Login() {
   return (

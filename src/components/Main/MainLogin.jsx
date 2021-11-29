@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from '../assets/hero.svg'
+import hero from '../../assets/hero.svg'
 
 function MainLogin() {
   return (
@@ -13,7 +13,7 @@ function MainLogin() {
 
       {/* Form Login */}
       <div className='flex mx-auto sm-android:mt-10 tablet:mt-0'>
-        <div className='max-w-md m-auto '>
+        <div className='max-w-md m-auto'>
           <h3 className='text-center font-bold text-purple-2'>
             Selamat datang di
             <span className='text-xl font-extrabold text-purple-1'> POJOK UMKM.</span>

@@ -7,11 +7,16 @@ module.exports = {
       roboto: ['Roboto', 'sans-serif']
     },
     textColor: {
-      'white-1':'#F5F5F5',
+      'white-1': '#F5F5F5',
       'purple-1': '#AC5BB9',
       'purple-2': '#663C6C',
       'gray-1': '#9C809F',
-      'gray-2':'#C9BBCC'
+      'gray-2': '#C9BBCC'
+    },
+    maxWidth: {
+      'mw-1': '18rem',
+      'mw-2': '24rem',
+      'mw-3': '460px',
     },
     minHeight: {
       '0': '0',
@@ -19,17 +24,27 @@ module.exports = {
       '1/2': '50%',
       '3/4': '75%',
       'full': '100%',
-      'navfoot':'5vh',
-      'main':'90vh'
-     },
+      'navfoot': '5vh',
+      'main': '85vh',
+      'c-main': '(100vh-140px)'
+    },
+    screens: {
+      'sm-android': '360px',
+      'android': '480px',
+      'sm-tablet': '640px',
+      'tablet': '860px',
+      'mid-tablet': '1024px',
+      'laptop': '1366px',
+      'desktop': '1440px'
+    },
     backgroundColor: theme => ({
       ...theme('colors'),
-      'purple-1':'#AC5BB9'
-     }),
+      'purple-1': '#AC5BB9'
+    }),
     extend: {
       spacing: {
         // Width
-        'costum-1':'26rem'
+        'costum-1': '26rem'
       },
       width: {
         // Width

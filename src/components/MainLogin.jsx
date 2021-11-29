@@ -3,17 +3,17 @@ import hero from '../assets/hero.svg'
 
 function MainLogin() {
   return (
-    <main className='w-6/7 min-h-main mx-auto flex font-poppins'>
+    <main className='w-6/7 min-h-main mx-auto font-poppins sm-android:mt-8 tablet:mt-0 tablet:flex'>
       {/* Hero Svg */}
       <div className='flex'>
-        <figure className=' max-w-md m-auto'>
+        <figure className='m-auto max-w-mw-1 sm-tablet:max-w-mw-2 mid-tablet:max-w-mw-3'>
           <img src={hero} alt="hero" />
         </figure>
       </div>
 
       {/* Form Login */}
-      <div className='flex mx-auto'>
-        <div className='w-full max-w-md m-auto'>
+      <div className='flex mx-auto sm-android:mt-10 tablet:mt-0'>
+        <div className='max-w-md m-auto '>
           <h3 className='text-center font-bold text-purple-2'>
             Selamat datang di
             <span className='text-xl font-extrabold text-purple-1'> POJOK UMKM.</span>
@@ -45,7 +45,7 @@ function MainLogin() {
 
             {/* Button */}
             <div>
-              <button className={`w-full p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded mt-6`}>
+              <button type='submit' className={`w-full p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded mt-6`}>
                 Login
               </button>
             </div>

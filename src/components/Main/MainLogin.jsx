@@ -45,7 +45,7 @@ function MainLogin() {
 
             {/* Button */}
             <div>
-              <button type='submit' className={`w-full p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded mt-6`}>
+              <button type='submit' className={`w-6/12 p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded mt-6`}>
                 Masuk
               </button>
             </div>

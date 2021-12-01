@@ -44,7 +44,9 @@ module.exports = {
     extend: {
       spacing: {
         // Width
-        'w1': '290px'
+        'w1': '180px',
+        'w2': '220px',
+        'w3':'280px'
       },
       width: {
         // Width

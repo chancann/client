@@ -6,7 +6,7 @@ function MainSignup() {
     <main className='w-6/7 min-h-main mx-auto font-poppins sm-android:mt-8 tablet:mt-0 tablet:flex'>
       {/* Image */}
       <div className='flex'>
-        <figure className='m-auto w-w1 sm-tablet:max-w-mw-2 mid-tablet:max-w-mw-3'>
+        <figure className='m-auto w-w1 sm-tablet:w-w2'>
           <img src={heroS} alt="heroS" />
         </figure>
       </div>
@@ -20,7 +20,7 @@ function MainSignup() {
           </h3>
 
           {/* Form */}
-          <div className='flex gap-x-20'>
+          <div className='sm-tablet:flex sm-tablet:gap-x-20'>
             <form>
               <div className='text-sm text-purple-2 mt-10'>
                 <label htmlFor='email'>NIK</label>
@@ -61,7 +61,7 @@ function MainSignup() {
             </form>
 
             <form>
-              <div className='text-sm text-purple-2 mt-10'>
+              <div className='text-sm text-purple-2 mt-5 sm-tablet:mt-10'>
                 <label htmlFor='email'>Email</label>
                 <input
                   type='email'
@@ -94,11 +94,11 @@ function MainSignup() {
                 <label htmlFor=''>Jenis Kelamin</label>
                 <div className='mt-1 px-2'>
                   <input type='checkbox' id='checkbox' />
-                  <label htmlFor='' className='px-2'>Laki-laki</label>
+                  <label htmlFor='' className='px-2'> Laki-laki</label>
                 </div>
                 <div className='px-2'>
                   <input type='checkbox' id='checkbox' />
-                  <label htmlFor='' className='px-2'>Perempuan</label>
+                  <label htmlFor='' className='px-2'> Perempuan</label>
                 </div>      
               </div>
             </form>
@@ -107,7 +107,7 @@ function MainSignup() {
           {/* Button */}
           <div>
             <div className='text-center'>
-              <button type='submit' className={`w-7/12 p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded mt-8`}>
+              <button type='submit' className={`w-6/12 p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded mt-8`}>
                 Daftar
               </button>
             </div>

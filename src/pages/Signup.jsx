@@ -1,9 +1,14 @@
 import React from 'react'
+import NavbarLS from '../components/Navbar/NavbarLS'
+import MainSignup from '../components/Main/MainSignup'
+import Footer from '../components/Footer/Footer'
 
 function Signup() {
   return (
     <>
-      <h1>Sign Up Page</h1>
+      <NavbarLS />
+      <MainSignup/>
+      <Footer/>
     </>
   )
 }

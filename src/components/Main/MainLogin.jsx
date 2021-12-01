@@ -1,13 +1,13 @@
 import React from 'react'
-import hero from '../../assets/hero.svg'
+import heroL from '../../assets/heroL.svg'
 
 function MainLogin() {
   return (
     <main className='w-6/7 min-h-main mx-auto font-poppins sm-android:mt-8 tablet:mt-0 tablet:flex'>
-      {/* Hero Svg */}
+      {/* Image */}
       <div className='flex'>
         <figure className='m-auto max-w-mw-1 sm-tablet:max-w-mw-2 mid-tablet:max-w-mw-3'>
-          <img src={hero} alt="hero" />
+          <img src={heroL} alt="heroL" />
         </figure>
       </div>
 
@@ -46,7 +46,7 @@ function MainLogin() {
             {/* Button */}
             <div>
               <button type='submit' className={`w-full p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded mt-6`}>
-                Login
+                Masuk
               </button>
             </div>
 

@@ -33,7 +33,7 @@ module.exports = {
       'android': '480px',
       'sm-tablet': '640px',
       'tablet': '860px',
-      'mid-tablet': '1024px',
+      'md-tablet': '1024px',
       'laptop': '1366px',
       'desktop': '1440px'
     },
@@ -44,7 +44,7 @@ module.exports = {
     extend: {
       spacing: {
         // Width
-        'costum-1': '26rem'
+        'w1': '290px'
       },
       width: {
         // Width

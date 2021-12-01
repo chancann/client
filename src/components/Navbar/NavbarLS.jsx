@@ -1,6 +1,6 @@
 import React from 'react'
 
-function NavbarLogin() {
+function NavbarLS() {
   return (
     <header className='w-7/7 mx-auto mt-9 font-poppins'>
       <div className='w-20'>
@@ -10,4 +10,4 @@ function NavbarLogin() {
   )
 }
 
-export default NavbarLogin
+export default NavbarLS

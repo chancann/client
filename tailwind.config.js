@@ -41,6 +41,12 @@ module.exports = {
       ...theme('colors'),
       'purple-1': '#AC5BB9'
     }),
+    borderColor: theme => ({
+      ...theme('colors'),
+       DEFAULT: theme('colors.gray.300', 'currentColor'),
+      'b1': '#F5F5F5',
+      'b2': '#AC5BB9'
+     }),
     extend: {
       spacing: {
         // Width

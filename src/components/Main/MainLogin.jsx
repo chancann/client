@@ -1,5 +1,5 @@
 import React from 'react'
-import heroL from '../../assets/heroL.svg'
+import heroL from '../../assets/image/heroL.svg'
 
 function MainLogin() {
   return (

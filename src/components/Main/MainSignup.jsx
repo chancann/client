@@ -1,5 +1,5 @@
 import React from 'react'
-import heroS from '../../assets/heroS.svg'
+import heroS from '../../assets/image/heroS.svg'
 
 function MainSignup() {
   return (

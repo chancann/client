@@ -20,14 +20,14 @@ function Navbar() {
           </div>
         </div>
 
-        <div className={`${isOpen ? 'block' : 'hidden'} w-full sm-tablet:flex flex-col sm-tablet:flex-row sm-tablet:items-center justify-between text-purple-1 my-4 sm-tablet:my-0`}>
-          <div className='flex flex-col sm-tablet:flex-row sm-tablet:mx-4'>
+        <div className={`${isOpen ? 'block' : 'hidden'} w-full sm-tablet:flex flex-col sm-tablet:flex-row sm-tablet:items-center justify-between text-center text-purple-1 my-4 sm-tablet:my-0`}>
+          <div className='flex flex-col sm-tablet:flex-row sm-tablet:mx-4 p-2'>
             <a href="/" className='block hover:text-purple-2 sm-tablet:mx-4 my-2'>Beranda</a>
             <a href="/" className='block hover:text-purple-2 sm-tablet:mx-4 my-2'>Produk</a>
             <a href="/" className='block hover:text-purple-2 sm-tablet:mx-4 my-2'>Tentang</a>
           </div>
           <div className='my-2 sm-tablet:my-0'>
-            <button type='submit' className={`w-28 p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded block hover:text-purple-2`}>
+            <button type='submit' className={`w-4/7 sm-tablet:w-28 p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded hover:text-purple-2`}>
               Masuk
             </button>
           </div>

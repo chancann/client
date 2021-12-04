@@ -1,7 +1,8 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import heroS from '../../assets/image/heroS.svg'
 
-function MainSignup() {
+function MainRegister() {
   return (
     <main className='w-6/7 min-h-main mx-auto font-poppins sm-android:mt-8 tablet:mt-0 tablet:flex'>
       {/* Image */}
@@ -114,7 +115,7 @@ function MainSignup() {
 
             <div>
               <p className='font-semibold text-center text-xs text-purple-2 mt-6'>
-                Sudah punya akun? <a className='text-purple-1' href="/">Masuk Disini</a>
+                Sudah punya akun? <NavLink className='text-purple-1' exact to="/login">Masuk Disini</NavLink>
               </p>
             </div>
           </div>
@@ -124,4 +125,4 @@ function MainSignup() {
   )
 }
 
-export default MainSignup
+export default MainRegister

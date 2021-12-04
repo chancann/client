@@ -1,27 +1,19 @@
 import React from 'react'
-import heroL from '../../assets/image/heroL.svg'
 import { NavLink } from 'react-router-dom'
 
-function MainLogin() {
+function MainFP() {
   return (
-    <main className='w-6/7 min-h-main mx-auto font-poppins sm-android:mt-8 tablet:mt-0 tablet:flex'>
-      {/* Image */}
-      <div className='flex'>
-        <figure className='m-auto max-w-mw-1 sm-tablet:max-w-mw-2 mid-tablet:max-w-mw-3'>
-          <img src={heroL} alt="heroL" />
-        </figure>
-      </div>
-
-      {/* Form Login */}
+    <main className='w-6/7 min-h-main mx-auto font-poppins sm-android:mt-8 tablet:mt-0 tablet:flex'> 
       <div className='flex mx-auto sm-android:mt-10 tablet:mt-0'>
         <div className='max-w-md m-auto'>
           <h3 className='text-center font-bold text-purple-2'>
             Selamat datang di
             <span className='text-xl font-extrabold text-purple-1'> POJOK UMKM.</span>
+            <p className='text-sm font-medium p-2'>Lupa Password?</p>
           </h3>
 
           <form>
-            <div className='text-sm text-purple-2 mt-10'>
+            <div className='text-sm text-purple-2 mt-8'>
               <label htmlFor='email'>Email</label>
               <input
                 type='email'
@@ -40,30 +32,18 @@ function MainLogin() {
               />
             </div>
 
-            <div className='text-purple-2 font-semibold text-xs text-right mt-6'>
-              <NavLink exact to="/forgotpassword">Lupa Kata Sandi?</NavLink>
-            </div>
-
             {/* Button */}
-            <div className='text-center'>
+            <div className='text-center mt-5'>
               <button type='submit' className={`w-full p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded mt-6`}>
-                Masuk
+                Ubah Password
               </button>
             </div>
 
-            <div>
-              <p className='font-semibold text-center text-xs text-purple-2 mt-6'>
-                Belum punya akun? <NavLink className='text-purple-1' exact to="/register">Daftar Disini</NavLink>
-              </p>
-            </div>
           </form>
         </div>
       </div>
     </main>
-
-
-
   )
 }
 
-export default MainLogin
+export default MainFP

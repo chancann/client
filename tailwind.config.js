@@ -23,7 +23,7 @@ module.exports = {
       '1/4': '25%',
       '1/2': '50%',
       '3/4': '75%',
-      'full': '100%',
+      'screen': '60vh',
       'main': '80vh'
       // 'navfoot': '5vh',
       // 'c-main': '(100vh-140px)'

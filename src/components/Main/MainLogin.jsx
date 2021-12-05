@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 function MainLogin() {
   return (
-    <main className='w-6/7 min-h-main mx-auto font-poppins sm-android:mt-8 tablet:mt-0 tablet:flex'>
+    <main className='w-6/7 min-h-main mx-auto font-poppins mt-8 sm-tablet:mt-0 tablet:flex'>
       {/* Image */}
       <div className='flex'>
         <figure className='m-auto max-w-mw-1 sm-tablet:max-w-mw-2 mid-tablet:max-w-mw-3'>
@@ -13,7 +13,7 @@ function MainLogin() {
       </div>
 
       {/* Form Login */}
-      <div className='flex mx-auto sm-android:mt-10 tablet:mt-0'>
+      <div className='flex mx-auto mt-10 tablet:mt-0'>
         <div className='max-w-md m-auto'>
           <h3 className='text-center font-bold text-purple-2'>
             Selamat datang di

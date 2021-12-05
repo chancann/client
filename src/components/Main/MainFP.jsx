@@ -1,11 +1,11 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+
 
 function MainFP() {
   return (
-    <main className='w-6/7 min-h-main mx-auto font-poppins sm-android:mt-8 tablet:mt-0 tablet:flex'> 
-      <div className='flex mx-auto sm-android:mt-10 tablet:mt-0'>
-        <div className='max-w-md m-auto'>
+    <main className='w-6/7 min-h-main m-auto font-poppins mt-8 sm-tablet:mt-0 sm-tablet:flex'> 
+      <div className='flex mx-auto '>
+        <div className='m-auto'>
           <h3 className='text-center font-bold text-purple-2'>
             Selamat datang di
             <span className='text-xl font-extrabold text-purple-1'> POJOK UMKM.</span>

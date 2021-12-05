@@ -1,19 +1,19 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import heroS from '../../assets/image/heroS.svg'
+import heroR from '../../assets/image/heroR.svg'
 
 function MainRegister() {
   return (
-    <main className='w-6/7 min-h-main mx-auto font-poppins sm-android:mt-8 tablet:mt-0 tablet:flex'>
+    <main className='w-6/7 min-h-main mx-auto font-poppins mt-8 sm-tablet:mt-0 laptop:flex'>
       {/* Image */}
       <div className='flex'>
-        <figure className='m-auto w-w1 sm-tablet:w-w2'>
-          <img src={heroS} alt="heroS" />
+        <figure className='m-auto w-w1 laptop:w-w2'>
+          <img src={heroR} alt="heroR" />
         </figure>
       </div>
 
       {/* SignUp */}
-      <div className='flex mx-auto sm-android:mt-10 tablet:mt-0'>
+      <div className='flex mx-auto mt-10 laptop:mt-0'>
         <div className='max-w-md m-auto'>
           <h3 className='text-center font-bold text-purple-2'>
             Selamat bergabung di
@@ -24,7 +24,7 @@ function MainRegister() {
           <div className='sm-tablet:flex sm-tablet:gap-x-20'>
             <form>
               <div className='text-sm text-purple-2 mt-10'>
-                <label htmlFor='email'>NIK</label>
+                <label htmlFor='nik'>NIK</label>
                 <input
                   type='email'
                   id='email'
@@ -33,16 +33,16 @@ function MainRegister() {
                 />
               </div>
               <div className='text-sm text-purple-2 mt-5'>
-                <label htmlFor='password'>Nama Lengkap</label>
+                <label htmlFor='nama lengkap'>Nama Lengkap</label>
                 <input
-                  type='password'
-                  id='password'
-                  className={`w-full p-2 border rounded outline-none text-sm`}
+                  type='email'
+                  id='email'
+                  className={`w-full p-2 border rounded outline-none text-sm `}
                   placeholder='Nama Lengkap'
                 />
               </div>
               <div className='text-sm text-purple-2 mt-5'>
-                <label htmlFor='email'>No Hp</label>
+                <label htmlFor='no hp'>No Hp</label>
                 <input
                   type='email'
                   id='email'
@@ -51,11 +51,11 @@ function MainRegister() {
                 />
               </div>
               <div className='text-sm text-purple-2 mt-5'>
-                <label htmlFor='password'>Alamat</label>
+                <label htmlFor='alamat'>Alamat</label>
                 <input
-                  type='password'
-                  id='password'
-                  className={`w-full p-2 border rounded outline-none text-sm`}
+                  type='email'
+                  id='email'
+                  className={`w-full p-2 border rounded outline-none text-sm `}
                   placeholder='Alamat'
                 />
               </div>
@@ -72,7 +72,7 @@ function MainRegister() {
                 />
               </div>
               <div className='text-sm text-purple-2 mt-5'>
-                <label htmlFor='password'>Kata Sandi</label>
+                <label htmlFor='kata sandi'>Kata Sandi</label>
                 <input
                   type='password'
                   id='password'
@@ -81,7 +81,7 @@ function MainRegister() {
                 />
               </div>
               <div className='text-sm text-purple-2 mt-5'>
-                <label htmlFor='password'>Konfirmasi Kata Sandi</label>
+                <label htmlFor='konfirmasi kata sandi'>Konfirmasi Kata Sandi</label>
                 <input
                   type='password'
                   id='password'

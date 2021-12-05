@@ -1,14 +1,14 @@
 import React from 'react'
 import NavbarLR from '../../components/Navbar/NavbarLR'
 import MainFP from '../../components/Main/MainFP'
-import Footer from '../../components/Footer/Footer'
+import FooterFP from '../../components/Footer/FooterFP'
 
 function ForgotPassword() {
   return (
     <>
       <NavbarLR />
       <MainFP/>
-      <Footer/>
+      <FooterFP/>
     </>
   )
 }

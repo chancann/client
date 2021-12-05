@@ -6,6 +6,7 @@ import Dashboard from '../pages/Dashboard'
 import Login from '../pages/auth/Login'
 import Register from '../pages/auth/Register'
 import ForgotPassword from '../pages/auth/ForgotPassword'
+import NotFound from '../pages/errors/NotFound'
 
 function Router() {
   return (
@@ -13,9 +14,10 @@ function Router() {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/dashboard' component={Dashboard}/>
-        <Route path='/login' component={Login} />
-        <Route path='/register' component={Register} />
-        <Route path='/forgotpassword' component={ForgotPassword} />
+        <Route path='/masuk' component={Login} />
+        <Route path='/daftar' component={Register} />
+        <Route path='/lupa-kata-sandi' component={ForgotPassword} />
+        <Route path='*' component={NotFound} />
       </Switch>
     </BrowserRouter>
   )

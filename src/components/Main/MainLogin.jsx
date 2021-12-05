@@ -1,5 +1,5 @@
 import React from 'react'
-import heroL from '../../assets/image/heroL.svg'
+import heroLogin from '../../assets/image/heroLogin.svg'
 import { NavLink } from 'react-router-dom'
 
 function MainLogin() {
@@ -8,7 +8,7 @@ function MainLogin() {
       {/* Image */}
       <div className='flex'>
         <figure className='m-auto max-w-mw-1 sm-tablet:max-w-mw-2 mid-tablet:max-w-mw-3'>
-          <img src={heroL} alt="heroL" />
+          <img src={heroLogin} alt="heroLogin" />
         </figure>
       </div>
 
@@ -41,7 +41,7 @@ function MainLogin() {
             </div>
 
             <div className='text-purple-2 font-semibold text-xs text-right mt-6'>
-              <NavLink exact to="/forgotpassword">Lupa Kata Sandi?</NavLink>
+              <NavLink exact to="/lupa-kata-sandi">Lupa Kata Sandi?</NavLink>
             </div>
 
             {/* Button */}
@@ -53,7 +53,7 @@ function MainLogin() {
 
             <div>
               <p className='font-semibold text-center text-xs text-purple-2 mt-6'>
-                Belum punya akun? <NavLink className='text-purple-1' exact to="/register">Daftar Disini</NavLink>
+                Belum punya akun? <NavLink className='text-purple-1' exact to="/daftar">Daftar Disini</NavLink>
               </p>
             </div>
           </form>

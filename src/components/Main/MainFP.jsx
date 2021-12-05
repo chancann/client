@@ -9,7 +9,7 @@ function MainFP() {
           <h3 className='text-center font-bold text-purple-2'>
             Selamat datang di
             <span className='text-xl font-extrabold text-purple-1'> POJOK UMKM.</span>
-            <p className='text-sm font-medium p-2'>Lupa Password?</p>
+            <p className='text-sm font-medium p-2'>Lupa Kata Sandi?</p>
           </h3>
 
           <form>

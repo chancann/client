@@ -55,7 +55,7 @@ function Navbar() {
             </div>
             :
             <div className='my-2 sm-tablet:my-0'>
-              <NavLink exact to='/login'>
+              <NavLink exact to='/masuk'>
                 <button type='submit' className={`w-48 sm-tablet:w-28 p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded hover:text-purple-2`}>
                   Masuk
                 </button>

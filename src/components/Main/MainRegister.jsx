@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import heroR from '../../assets/image/heroR.svg'
+import heroRegister from '../../assets/image/heroRegister.svg'
 
 function MainRegister() {
   return (
@@ -8,7 +8,7 @@ function MainRegister() {
       {/* Image */}
       <div className='flex'>
         <figure className='m-auto w-w1 laptop:w-w2'>
-          <img src={heroR} alt="heroR" />
+          <img src={heroRegister} alt="heroRegister" />
         </figure>
       </div>
 
@@ -115,7 +115,7 @@ function MainRegister() {
 
             <div>
               <p className='font-semibold text-center text-xs text-purple-2 mt-6'>
-                Sudah punya akun? <NavLink className='text-purple-1' exact to="/login">Masuk Disini</NavLink>
+                Sudah punya akun? <NavLink className='text-purple-1' exact to="/masuk">Masuk Disini</NavLink>
               </p>
             </div>
           </div>

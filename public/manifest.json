@@ -1,0 +1,15 @@
+{
+  "short_name": "Katalog Produk",
+  "name": "Katalog Online Kecamatan Sepatan",
+  "icons": [
+    {
+      "src": "hamburger.svg",
+      "sizes": "18x14",
+      "type": "image/hamburger"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

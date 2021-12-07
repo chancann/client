@@ -68,16 +68,16 @@ function MainProduct() {
           <div>
 
             <section className="flex items-center overflow-hidden gap-x-12">
-              <div className="">
+            <div className="">
                 <div className="border border-gray-200 border-opacity-60 hover:shadow-md rounded overflow-hidden">
                   <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
                   <div className="p-4">
                     <h4 className="text-xs font-medium text-right mb-1">25 Desember 2021</h4>
-                    <h2 className="text-lg font-semibold mb-1">Ayam Goreng Mentah</h2>
+                    <h2 className="text-lg text-purple-2 text-center font-semibold mb-1">Ayam Goreng Mentah</h2>
                     <h3 className='text-sm text-center font-medium mb-1'>Penjual</h3>
-                    <h4 className='text-sm text-center font-medium mb-3'>Harga</h4>
+                    <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
                     <div className="flex items-center flex-wrap justify-end">
-                      <a href='/x' className="inline-flex items-center">
+                      <a href='/x' className="text-indigo-300 inline-flex items-center text-purple-2">
                         Detail
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14" />
@@ -93,11 +93,11 @@ function MainProduct() {
                   <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
                   <div className="p-4">
                     <h4 className="text-xs font-medium text-right mb-1">25 Desember 2021</h4>
-                    <h2 className="text-lg font-semibold mb-1">Ayam Goreng Mentah</h2>
+                    <h2 className="text-lg text-purple-2 text-center font-semibold mb-1">Ayam Goreng Mentah</h2>
                     <h3 className='text-sm text-center font-medium mb-1'>Penjual</h3>
-                    <h4 className='text-sm text-center font-medium mb-3'>Harga</h4>
+                    <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
                     <div className="flex items-center flex-wrap justify-end">
-                      <a href='/x' className="inline-flex items-center">
+                      <a href='/x' className="text-indigo-300 inline-flex items-center text-purple-2">
                         Detail
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14" />
@@ -113,11 +113,11 @@ function MainProduct() {
                   <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
                   <div className="p-4">
                     <h4 className="text-xs font-medium text-right mb-1">25 Desember 2021</h4>
-                    <h2 className="text-lg font-semibold mb-1">Ayam Goreng Mentah</h2>
+                    <h2 className="text-lg text-purple-2 text-center font-semibold mb-1">Ayam Goreng Mentah</h2>
                     <h3 className='text-sm text-center font-medium mb-1'>Penjual</h3>
-                    <h4 className='text-sm text-center font-medium mb-3'>Harga</h4>
+                    <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
                     <div className="flex items-center flex-wrap justify-end">
-                      <a href='/x' className="inline-flex items-center">
+                      <a href='/x' className="text-indigo-300 inline-flex items-center text-purple-2">
                         Detail
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14" />
@@ -133,11 +133,11 @@ function MainProduct() {
                   <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
                   <div className="p-4">
                     <h4 className="text-xs font-medium text-right mb-1">25 Desember 2021</h4>
-                    <h2 className="text-lg font-semibold mb-1">Ayam Goreng Mentah</h2>
+                    <h2 className="text-lg text-purple-2 text-center font-semibold mb-1">Ayam Goreng Mentah</h2>
                     <h3 className='text-sm text-center font-medium mb-1'>Penjual</h3>
-                    <h4 className='text-sm text-center font-medium mb-3'>Harga</h4>
+                    <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
                     <div className="flex items-center flex-wrap justify-end">
-                      <a href='/x' className="inline-flex items-center">
+                      <a href='/x' className="text-indigo-300 inline-flex items-center text-purple-2">
                         Detail
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14" />

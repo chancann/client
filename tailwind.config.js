@@ -11,7 +11,8 @@ module.exports = {
       'purple-1': '#AC5BB9',
       'purple-2': '#663C6C',
       'gray-1': '#9C809F',
-      'gray-2': '#C9BBCC'
+      'gray-2': '#C9BBCC',
+      'red-1': '#E37474'
     },
     maxWidth: {
       'mw-0': '14rem ',

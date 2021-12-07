@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import heroRegister from '../../assets/image/heroRegister.svg'
+import heroRegister from '../../assets/image/ilustrations/heroRegister.svg'
 
 function MainRegister() {
   return (

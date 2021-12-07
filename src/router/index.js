@@ -7,6 +7,7 @@ import Login from '../pages/auth/Login'
 import Register from '../pages/auth/Register'
 import ForgotPassword from '../pages/auth/ForgotPassword'
 import NotFound from '../pages/errors/NotFound'
+import MainProduct from '../components/Product/MainProduct'
 
 function Router() {
   return (
@@ -17,6 +18,7 @@ function Router() {
         <Route path='/masuk' component={Login} />
         <Route path='/daftar' component={Register} />
         <Route path='/lupa-kata-sandi' component={ForgotPassword} />
+        <Route path='/produk' component={MainProduct} />
         <Route path='*' component={NotFound} />
       </Switch>
     </BrowserRouter>

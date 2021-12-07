@@ -14,17 +14,21 @@ module.exports = {
       'gray-2': '#C9BBCC'
     },
     maxWidth: {
+      'mw-0': '14rem ',
       'mw-1': '18rem ',
-      'mw-2': '24rem',
+      'mw-2': '22rem',
       'mw-3': '420px',
+      'mw1':'20rem',
+      'mw2':'16rem'
     },
     minHeight: {
       '0': '0',
       '1/4': '25%',
       '1/2': '50%',
       '3/4': '75%',
-      'screen': '60vh',
-      'main': '80vh'
+      'md-main': '60vh',
+      'main': '80vh',
+      'screen': '90vh'
       // 'navfoot': '5vh',
       // 'c-main': '(100vh-140px)'
     },
@@ -35,7 +39,8 @@ module.exports = {
       'tablet': '860px',
       'md-tablet': '1024px',
       'laptop': '1366px',
-      'desktop': '1440px'
+      'desktop': '1440px',
+      'lg-desktop': '1920px'
     },
     backgroundColor: theme => ({
       ...theme('colors'),
@@ -52,7 +57,9 @@ module.exports = {
         // Width
         'w1': '180px',
         'w2': '220px',
-        'w3':'280px'
+        'w3': '280px',
+        'w4': '580px',
+        'w5': '640px'
       },
       width: {
         // Width
@@ -60,7 +67,7 @@ module.exports = {
         '2/7': '28.5714286%',
         '3/7': '42.8571429%',
         '4/7': '57.1428571%',
-        '5/7': '71.4285714%',
+        '5/7': '80%',
         '6/7': '86%',
         '7/7': '90%'
       }

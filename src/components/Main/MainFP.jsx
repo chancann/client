@@ -3,8 +3,8 @@ import React from 'react'
 
 function MainFP() {
   return (
-    <main className='w-6/7 min-h-main m-auto font-poppins mt-8 sm-tablet:mt-0 sm-tablet:flex'> 
-      <div className='flex mx-auto '>
+    <main className='w-6/7 flex min-h-main m-auto font-poppins'> 
+      <div className='m-auto'>
         <div className='m-auto'>
           <h3 className='text-center font-bold text-purple-2'>
             Selamat datang di

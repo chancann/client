@@ -8,6 +8,7 @@ import Register from '../pages/auth/Register'
 import ForgotPassword from '../pages/auth/ForgotPassword'
 import NotFound from '../pages/errors/NotFound'
 import MainProduct from '../components/Product/MainProduct'
+import MainAbout from '../components/About/MainAbout'
 
 function Router() {
   return (
@@ -19,6 +20,7 @@ function Router() {
         <Route path='/daftar' component={Register} />
         <Route path='/lupa-kata-sandi' component={ForgotPassword} />
         <Route path='/produk' component={MainProduct} />
+        <Route path='/tentang' component={MainAbout} />
         <Route path='*' component={NotFound} />
       </Switch>
     </BrowserRouter>

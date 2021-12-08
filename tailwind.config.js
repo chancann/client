@@ -29,7 +29,8 @@ module.exports = {
       '3/4': '75%',
       'md-main': '60vh',
       'main': '80vh',
-      'screen': '90vh'
+      'screen': '90vh',
+      'screen1': '100vh'
       // 'navfoot': '5vh',
       // 'c-main': '(100vh-140px)'
     },

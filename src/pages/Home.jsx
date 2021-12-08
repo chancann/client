@@ -1,8 +1,10 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import Main from '../components/Main/Main'
-import FooterMain from '../components/Footer/FooterMain'
 import Product from '../components/Product/Product'
+import About from '../components/About/About'
+import Footer from '../components/Footer/Footer'
+
 
 function Home() {
   return (
@@ -10,7 +12,8 @@ function Home() {
       <Navbar />
       <Main />
       <Product/>
-      <FooterMain/>
+      <About/>
+      <Footer />
     </>
   )
 }

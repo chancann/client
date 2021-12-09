@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import makanan from '../../assets/image/makanan.png'
 
-function Product() {
+function ProductD() {
   const [isOpen, setIsOpen] = useState(false)
   return (
 
@@ -10,7 +10,7 @@ function Product() {
       <div>
 
         <div className='text-center'>
-          <h2 className='p-4 font-bold text-4xl text-purple-1'>Produk</h2>
+          <h2 className='p-4 font-bold text-4xl text-purple-1'>Produk anda</h2>
         </div>
 
         <div className='flex mb-6'>
@@ -147,4 +147,4 @@ function Product() {
   )
 }
 
-export default Product
+export default ProductD

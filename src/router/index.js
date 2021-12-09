@@ -7,8 +7,10 @@ import Login from '../pages/auth/Login'
 import Register from '../pages/auth/Register'
 import ForgotPassword from '../pages/auth/ForgotPassword'
 import NotFound from '../pages/errors/NotFound'
-import MainProduct from '../components/Product/MainProduct'
-import MainAbout from '../components/About/MainAbout'
+import ProductM from '../components/Product/ProductM'
+import AboutM from '../components/About/AboutM'
+import Detail from '../pages/Detail'
+import Profile from '../pages/Profile'
 
 function Router() {
   return (
@@ -19,8 +21,10 @@ function Router() {
         <Route path='/masuk' component={Login} />
         <Route path='/daftar' component={Register} />
         <Route path='/lupa-kata-sandi' component={ForgotPassword} />
-        <Route path='/produk' component={MainProduct} />
-        <Route path='/tentang' component={MainAbout} />
+        <Route path='/produk' component={ProductM} />
+        <Route path='/tentang' component={AboutM} />
+        <Route path='/detail' component={Detail} />
+        <Route path='/profil' component={Profile} />
         <Route path='*' component={NotFound} />
       </Switch>
     </BrowserRouter>

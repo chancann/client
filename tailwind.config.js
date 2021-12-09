@@ -19,8 +19,8 @@ module.exports = {
       'mw-1': '18rem ',
       'mw-2': '22rem',
       'mw-3': '420px',
-      'mw1':'20rem',
-      'mw2':'16rem'
+      'mw1': '20rem',
+      'mw2': '16rem'
     },
     minHeight: {
       '0': '0',
@@ -40,6 +40,7 @@ module.exports = {
       'sm-tablet': '640px',
       'tablet': '860px',
       'md-tablet': '1024px',
+      'sm-laptop': '1240px',
       'laptop': '1366px',
       'desktop': '1440px',
       'lg-desktop': '1920px'
@@ -50,10 +51,10 @@ module.exports = {
     }),
     borderColor: theme => ({
       ...theme('colors'),
-       DEFAULT: theme('colors.gray.300', 'currentColor'),
+      DEFAULT: theme('colors.gray.300', 'currentColor'),
       'b1': '#F5F5F5',
       'b2': '#AC5BB9'
-     }),
+    }),
     extend: {
       spacing: {
         // Width

@@ -3,8 +3,8 @@ const { atom } = require('recoil')
 const authenticatedUser = atom({
   key: 'authenticated',
   default: {
-    check: false,
-    user:{name:'Chancan'}
+    check: true,
+    user:{name:'Chancan Yadi'}
   }
 })
 

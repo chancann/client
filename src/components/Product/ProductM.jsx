@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import makanan from '../../assets/image/makanan.png'
 import Footer from '../Footer/Footer'
 
-function MainProduct() {
+function ProductM() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -12,7 +12,7 @@ function MainProduct() {
         <div>
 
           <div className='text-center'>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between text-purple-1">
               <h2 className='p-4 font-bold text-4xl'>Produk</h2>
               <NavLink to='/' className="inline-flex">
                 Beranda
@@ -67,95 +67,95 @@ function MainProduct() {
           <div className=''>
             <div>
 
-              <section className="flex items-center overflow-hidden gap-x-12">
-                <div className="">
+              <section className="flex items-center text-purple-1 overflow-hidden gap-x-12">
+                <NavLink to="/detail">
                   <div className="border border-gray-200 border-opacity-60 hover:shadow-md rounded overflow-hidden">
                     <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
                     <div className="p-4">
-                      <h4 className="text-xs font-medium text-right mb-1">25 Desember 2021</h4>
-                      <h2 className="text-lg text-purple-2 text-center font-semibold mb-1">Ayam Goreng Mentah</h2>
-                      <h3 className='text-sm text-center font-medium mb-1'>Penjual</h3>
+                      <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
+                      <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
+                      <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
                       <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
                       <div className="flex items-center flex-wrap justify-end">
-                        <a href='/x' className="text-indigo-300 inline-flex items-center text-purple-2">
+                        <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
                           Detail
                           <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M5 12h14" />
                             <path d="M12 5l7 7-7 7" />
                           </svg>
-                        </a>
+                        </button>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="">
+                </NavLink>
+                <NavLink to="/detail">
                   <div className="border border-gray-200 border-opacity-60 hover:shadow-md rounded overflow-hidden">
                     <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
                     <div className="p-4">
-                      <h4 className="text-xs font-medium text-right mb-1">25 Desember 2021</h4>
-                      <h2 className="text-lg text-purple-2 text-center font-semibold mb-1">Ayam Goreng Mentah</h2>
-                      <h3 className='text-sm text-center font-medium mb-1'>Penjual</h3>
+                      <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
+                      <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
+                      <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
                       <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
                       <div className="flex items-center flex-wrap justify-end">
-                        <a href='/x' className="text-indigo-300 inline-flex items-center text-purple-2">
+                        <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
                           Detail
                           <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M5 12h14" />
                             <path d="M12 5l7 7-7 7" />
                           </svg>
-                        </a>
+                        </button>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="">
+                </NavLink>
+                <NavLink to="/detail">
                   <div className="border border-gray-200 border-opacity-60 hover:shadow-md rounded overflow-hidden">
                     <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
                     <div className="p-4">
-                      <h4 className="text-xs font-medium text-right mb-1">25 Desember 2021</h4>
-                      <h2 className="text-lg text-purple-2 text-center font-semibold mb-1">Ayam Goreng Mentah</h2>
-                      <h3 className='text-sm text-center font-medium mb-1'>Penjual</h3>
+                      <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
+                      <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
+                      <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
                       <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
                       <div className="flex items-center flex-wrap justify-end">
-                        <a href='/x' className="text-indigo-300 inline-flex items-center text-purple-2">
+                        <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
                           Detail
                           <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M5 12h14" />
                             <path d="M12 5l7 7-7 7" />
                           </svg>
-                        </a>
+                        </button>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="">
+                </NavLink>
+                <NavLink to="/detail">
                   <div className="border border-gray-200 border-opacity-60 hover:shadow-md rounded overflow-hidden">
                     <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
                     <div className="p-4">
-                      <h4 className="text-xs font-medium text-right mb-1">25 Desember 2021</h4>
-                      <h2 className="text-lg text-purple-2 text-center font-semibold mb-1">Ayam Goreng Mentah</h2>
-                      <h3 className='text-sm text-center font-medium mb-1'>Penjual</h3>
+                      <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
+                      <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
+                      <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
                       <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
                       <div className="flex items-center flex-wrap justify-end">
-                        <a href='/x' className="text-indigo-300 inline-flex items-center text-purple-2">
+                        <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
                           Detail
                           <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M5 12h14" />
                             <path d="M12 5l7 7-7 7" />
                           </svg>
-                        </a>
+                        </button>
                       </div>
                     </div>
                   </div>
-                </div>
+                </NavLink>
               </section>
             </div>
           </div>
         </div>
       </main>
-      <Footer />
+      <Footer/>
     </>
   )
 }
 
-export default MainProduct
+export default ProductM

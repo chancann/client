@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import makanan from '../../assets/image/makanan.png'
 
-function ProductD() {
+function ProductP() {
   const [isOpen, setIsOpen] = useState(false)
   return (
 
-    <main className='w-7/7 min-h-screen1 m-auto font-poppins text-purple-2'>
+    <main className='w-7/7 min-h-main m-auto font-poppins text-purple-2'>
       <div>
 
         <div className='text-center'>
@@ -147,4 +147,4 @@ function ProductD() {
   )
 }
 
-export default ProductD
+export default ProductP

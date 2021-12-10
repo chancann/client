@@ -26,9 +26,9 @@ function Navbar() {
 
         <nav className={`${isOpen ? 'block' : 'hidden'} w-full sm-tablet:flex flex-col sm-tablet:flex-row sm-tablet:items-center justify-between text-center text-purple-1 my-4 sm-tablet:my-0`}>
           <div className='flex flex-col sm-tablet:flex-row sm-tablet:mx-4 p-2'>
-            <NavLink exact to="/" className='block hover:text-purple-2 sm-tablet:mx-4 my-2'>Beranda</NavLink>
-            <NavLink exact to="/produk" className='block hover:text-purple-2 sm-tablet:mx-4 my-2'>Produk</NavLink>
-            <NavLink exact to="/tentang" className='block hover:text-purple-2 sm-tablet:mx-4 my-2'>Tentang</NavLink>
+            <NavLink exact to="/" className='hover:text-purple-2 sm-tablet:mx-4 my-2'>Beranda</NavLink>
+            <NavLink exact to="/produk" className='hover:text-purple-2 sm-tablet:mx-4 my-2'>Produk</NavLink>
+            <NavLink exact to="/tentang" className='hover:text-purple-2 sm-tablet:mx-4 my-2'>Tentang</NavLink>
           </div>
 
           {auth.check ?

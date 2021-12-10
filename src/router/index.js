@@ -11,6 +11,7 @@ import ProductM from '../components/Product/ProductM'
 import AboutM from '../components/About/AboutM'
 import Detail from '../pages/Detail'
 import Profile from '../pages/Profile'
+import AddProduct from '../pages/AddProduct'
 
 function Router() {
   return (
@@ -25,6 +26,7 @@ function Router() {
         <Route path='/tentang' component={AboutM} />
         <Route path='/detail' component={Detail} />
         <Route path='/profil' component={Profile} />
+        <Route path='/tambah-produk' component={AddProduct} />
         <Route path='*' component={NotFound} />
       </Switch>
     </BrowserRouter>

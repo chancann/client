@@ -1,9 +1,41 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import makanan from '../../assets/image/makanan.png'
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 function ProductP() {
   const [isOpen, setIsOpen] = useState(false)
+  const settings = {
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  }
   return (
 
     <main className='w-7/7 min-h-main m-auto font-poppins text-purple-2'>
@@ -54,94 +86,109 @@ function ProductP() {
         </div>
 
         {/* Card */}
-        <div className=''>
-          <div>
-
-            <section className="flex items-center text-purple-1 overflow-hidden gap-x-12">
-              <NavLink to="/detail">
-                <div className="border border-gray-200 border-opacity-60 hover:shadow-md rounded overflow-hidden">
-                  <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
-                  <div className="p-4">
-                    <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
-                    <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
-                    <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
-                    <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
-                    <div className="flex items-center flex-wrap justify-end">
-                      <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
-                        Detail
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M5 12h14" />
-                          <path d="M12 5l7 7-7 7" />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
+        <Slider {...settings} className='p-2'>
+          <div className=''>
+            <div className="p-4 hover:shadow-md">
+              <figure className='rounded'>
+                <img className="w-full rounded object-cover" src={makanan} alt="makanan" />
+              </figure>
+              <div className="p-4">
+                <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
+                <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
+                <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
+                <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
+                <div className="flex items-center flex-wrap justify-end">
+                  <NavLink to="/detail">
+                    <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
+                      Detail
+                      <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M5 12h14" />
+                        <path d="M12 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  </NavLink>
                 </div>
-              </NavLink>
-              <NavLink to="/detail">
-                <div className="border border-gray-200 border-opacity-60 hover:shadow-md rounded overflow-hidden">
-                  <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
-                  <div className="p-4">
-                    <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
-                    <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
-                    <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
-                    <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
-                    <div className="flex items-center flex-wrap justify-end">
-                      <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
-                        Detail
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M5 12h14" />
-                          <path d="M12 5l7 7-7 7" />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-              <NavLink to="/detail">
-                <div className="border border-gray-200 border-opacity-60 hover:shadow-md rounded overflow-hidden">
-                  <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
-                  <div className="p-4">
-                    <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
-                    <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
-                    <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
-                    <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
-                    <div className="flex items-center flex-wrap justify-end">
-                      <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
-                        Detail
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M5 12h14" />
-                          <path d="M12 5l7 7-7 7" />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-              <NavLink to="/detail">
-                <div className="border border-gray-200 border-opacity-60 hover:shadow-md rounded overflow-hidden">
-                  <img className="max-w-mw2 object-cover" src={makanan} alt="makanan" />
-                  <div className="p-4">
-                    <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
-                    <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
-                    <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
-                    <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
-                    <div className="flex items-center flex-wrap justify-end">
-                      <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
-                        Detail
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M5 12h14" />
-                          <path d="M12 5l7 7-7 7" />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </section>
-            
+              </div>
+            </div>
           </div>
-        </div>
+
+          <div className=''>
+            <div className="p-4 hover:shadow-md">
+              <figure className='rounded'>
+                <img className="w-full rounded object-cover" src={makanan} alt="makanan" />
+              </figure>
+              <div className="p-4">
+                <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
+                <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
+                <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
+                <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
+                <div className="flex items-center flex-wrap justify-end">
+                  <NavLink to="/detail">
+                    <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
+                      Detail
+                      <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M5 12h14" />
+                        <path d="M12 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className=''>
+            <div className="p-4 hover:shadow-md">
+              <figure className='rounded'>
+                <img className="w-full rounded object-cover" src={makanan} alt="makanan" />
+              </figure>
+              <div className="p-4">
+                <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
+                <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
+                <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
+                <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
+                <div className="flex items-center flex-wrap justify-end">
+                  <NavLink to="/detail">
+                    <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
+                      Detail
+                      <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M5 12h14" />
+                        <path d="M12 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className=''>
+            <div className="p-4 hover:shadow-md">
+              <figure className='rounded'>
+                <img className="w-full rounded object-cover" src={makanan} alt="makanan" />
+              </figure>
+              <div className="p-4">
+                <h4 className="text-xs font-medium text-right mb-1 text-gray-2">25 Desember 2021</h4>
+                <h2 className="text-lg text-purple-2 text-center font-semibold mb-2">Ayam Goreng Mentah</h2>
+                <h3 className='text-sm text-center mb-1 text-gray-1'>Penjual</h3>
+                <h4 className='text-sm text-red-1 text-center font-medium mb-3'>Rp. 20.000</h4>
+                <div className="flex items-center flex-wrap justify-end">
+                  <NavLink to="/detail">
+                    <button to='/detail' className="text-indigo-300 inline-flex items-center text-gray-1">
+                      Detail
+                      <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M5 12h14" />
+                        <path d="M12 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </Slider>
       </div>
     </main>
   )

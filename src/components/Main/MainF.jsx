@@ -13,21 +13,21 @@ function MainF() {
 
           <form>
             <div className='text-sm text-purple-2 mt-8'>
-              <label htmlFor='email'>Email</label>
+              <label htmlFor='email'>Kata Sandi Baru</label>
               <input
                 type='email'
                 id='email'
                 className={`w-full p-2 border rounded outline-none text-sm `}
-                placeholder='Email'
+                placeholder='Kata Sandi Baru'
               />
             </div>
             <div className='text-sm text-purple-2 mt-5'>
-              <label htmlFor='password'>Kata Sandi</label>
+              <label htmlFor='password'>Verifikasi Kata Sandi</label>
               <input
                 type='password'
                 id='password'
                 className={`w-full p-2 border rounded outline-none text-sm`}
-                placeholder='Kata Sandi'
+                placeholder='Verifikasi Kata Sandi'
               />
             </div>
 

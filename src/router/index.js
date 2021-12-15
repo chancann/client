@@ -6,6 +6,7 @@ import Dashboard from '../pages/Dashboard'
 import Login from '../pages/auth/Login'
 import Register from '../pages/auth/Register'
 import ForgotPassword from '../pages/auth/ForgotPassword'
+import ForgotPass from '../pages/auth/ForgotPass'
 import NotFound from '../pages/errors/NotFound'
 import ProductM from '../components/Product/ProductM'
 import AboutM from '../components/About/AboutM'
@@ -22,6 +23,7 @@ function Router() {
         <Route path='/masuk' component={Login} />
         <Route path='/daftar' component={Register} />
         <Route path='/lupa-kata-sandi' component={ForgotPassword} />
+        <Route path='/ubah-kata-sandi' component={ForgotPass} />
         <Route path='/produk' component={ProductM} />
         <Route path='/tentang' component={AboutM} />
         <Route path='/detail' component={Detail} />

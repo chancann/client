@@ -15,8 +15,8 @@ function MainF() {
             <div className='text-sm text-purple-2 mt-8'>
               <label htmlFor='email'>Kata Sandi Baru</label>
               <input
-                type='email'
-                id='email'
+                type='password'
+                id='password'
                 className={`w-full p-2 border rounded outline-none text-sm `}
                 placeholder='Kata Sandi Baru'
               />

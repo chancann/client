@@ -48,15 +48,15 @@ function MainProfile() {
             </div>
           </div>
 
-          <div className='flex justify-center gap-x-4'>
+          <div className='flex gap-x-4'>
             <div className='mb-4'>
-              <button type='submit' className={`w-36 p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded hover:text-purple-2`}>
+              <button type='submit' className={`p-2 font-bold text-sm text-purple-2`}>
                 Ubah
               </button>
             </div>
             <NavLink to='/tambah-produk'>
               <div className='mb-4'>
-                <button type='submit' className={`w-36 p-2 font-medium text-sm text-white-1 bg-purple-1 border rounded hover:text-purple-2`}>
+                <button type='submit' className={`p-2 font-bold text-sm text-red-1`}>
                   Tambah Produk
                 </button>
               </div>

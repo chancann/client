@@ -26,8 +26,8 @@ function MainRegister() {
               <div className='text-sm text-purple-2 mt-10'>
                 <label htmlFor='nik'>NIK</label>
                 <input
-                  type='email'
-                  id='email'
+                  type='tel'
+                  id='tel'
                   className={`w-full p-2 border rounded outline-none text-sm `}
                   placeholder='NIK'
                 />
@@ -35,8 +35,8 @@ function MainRegister() {
               <div className='text-sm text-purple-2 mt-5'>
                 <label htmlFor='nama lengkap'>Nama Lengkap</label>
                 <input
-                  type='email'
-                  id='email'
+                  type='text'
+                  id='text'
                   className={`w-full p-2 border rounded outline-none text-sm `}
                   placeholder='Nama Lengkap'
                 />
@@ -44,8 +44,8 @@ function MainRegister() {
               <div className='text-sm text-purple-2 mt-5'>
                 <label htmlFor='no hp'>No Hp</label>
                 <input
-                  type='email'
-                  id='email'
+                  type='tel'
+                  id='tel'
                   className={`w-full p-2 border rounded outline-none text-sm `}
                   placeholder='No Hp'
                 />
@@ -53,8 +53,8 @@ function MainRegister() {
               <div className='text-sm text-purple-2 mt-5'>
                 <label htmlFor='alamat'>Alamat</label>
                 <input
-                  type='email'
-                  id='email'
+                  type='text'
+                  id='text'
                   className={`w-full p-2 border rounded outline-none text-sm `}
                   placeholder='Alamat'
                 />
@@ -94,11 +94,11 @@ function MainRegister() {
               <div className='text-sm text-purple-2 mt-5 gap-y-2'>
                 <label htmlFor=''>Jenis Kelamin</label>
                 <div className='mt-1 px-2'>
-                  <input type='checkbox' id='checkbox' />
+                  <input type='checkbox' id='' />
                   <label htmlFor='' className='px-2'> Laki-laki</label>
                 </div>
                 <div className='px-2'>
-                  <input type='checkbox' id='checkbox' />
+                  <input type='checkbox' id='' />
                   <label htmlFor='' className='px-2'> Perempuan</label>
                 </div>      
               </div>
